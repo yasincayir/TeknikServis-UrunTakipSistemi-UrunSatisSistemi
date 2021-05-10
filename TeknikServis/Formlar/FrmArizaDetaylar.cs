@@ -27,6 +27,7 @@ namespace TeknikServis.Formlar
             db.TblUrunTakip.Add(t);
             
 
+
             //2.GÜNCELLEME
             TblUrunKabul tb = new TblUrunKabul();
             int urunid = int.Parse(id.ToString());
@@ -34,6 +35,7 @@ namespace TeknikServis.Formlar
             deger.URUNDURUMDETAY = comboBox1.Text;
             db.SaveChanges();
             MessageBox.Show("Ürün Arıza Detayları Güncellendi");
+
         }
 
         private void textMarka_Click(object sender, EventArgs e)
