@@ -1,5 +1,9 @@
 # TeknikServis-UrunTakipSistemi-UrunSatisSistemi
 ***
+## Projede Kullanılan Yazılım Dilleri / Araçları
+* C#
+* Devexpress
+* MSSQL
 ## Bu Proje DevExpress Kullanılarak;
 * Ürün Takibi
 * Ürün Satışı
